@@ -1,0 +1,16 @@
+main: plugin.MuteUnmutePlayer
+name: MuteUnmutePlayer
+version: 1.0
+commands:
+  mute:
+    description: Mute players
+    usage: /mute
+    aliases: m
+    permission: mute
+    permission-message: Nu ai permisiunea de a da mute
+  unmute:
+    description: Unmute players
+    usage: /unmute
+    aliases: um
+    permission: mute
+    permission-message: Nu ai permisiunea de a da unmute
